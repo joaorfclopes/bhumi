@@ -12,6 +12,14 @@ body {
   margin: 0;
   background: black;
 }
+.title {
+  font-family: "Abril Fatface Regular";
+  letter-spacing: -0.07em;
+}
+.text {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
 /*HEADER*/
 .header {
   height: 15vh;
@@ -19,15 +27,46 @@ body {
   position: fixed;
   width: 100%;
   text-align: center;
+  top: 0;
+  z-index: 999;
 }
 .logo {
   width: 25vh;
   margin-top: 3vh;
 }
+.titleMobile {
+  top: 50vh;
+  font-size: 4vw;
+}
+.textMobile {
+  top: 50vh;
+  font-size: 4vw;
+}
+.titleDesktop {
+  top: 50vh;
+}
+.textDesktop {
+  top: 55vh;
+}
 /*SECTION 1*/
 .section1 {
-  height: 100vh;
-  background: burlywood;
+  margin-top: 15vh;
+  height: 85vh;
+  background: url("./assets/images/section1.jpg") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+.titleSection1 {
+  color: #957a69;
+  background: black;
+  position: relative;
+}
+.titleSection1 > h3 {
+  padding: 10px;
+}
+.textSection1 {
+  color: #c2b5ac;
+  position: relative;
 }
 /*SECTION 2*/
 .section2 {
