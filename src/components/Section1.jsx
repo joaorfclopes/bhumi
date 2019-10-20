@@ -6,7 +6,7 @@ export default function Section1() {
     query: "(min-device-width: 1224px)"
   });
   const isMobile = useMediaQuery({
-    query: "(max-device-width: 760px)"
+    query: "(max-device-width: 1224px)"
   });
   return (
     <div className="container1">
