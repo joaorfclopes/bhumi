@@ -52,9 +52,15 @@ body {
 .section1 {
   margin-top: 15vh;
   height: 85vh;
-  background: url("./assets/images/section1.jpg") no-repeat;
-  background-size: 100% 100%;
   text-align: center;
+}
+.section1Mobile {
+  background: url("./assets/images/mobile.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+.section1Desktop {
+  background: url("./assets/images/desktop.jpg") no-repeat;
+  background-size: 100% 100%;
 }
 .titleSection1 {
   color: #957a69;
