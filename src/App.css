@@ -1,29 +1,50 @@
+/*GENERAL*/
+html {
+  scrollbar-width: none;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
 body {
   margin: 0;
   background: black;
 }
+/*HEADER*/
 .header {
   height: 15vh;
   background: black;
   position: fixed;
   width: 100%;
+  text-align: center;
 }
+.logo {
+  width: 25vh;
+  margin-top: 3vh;
+}
+/*SECTION 1*/
 .section1 {
   height: 100vh;
   background: burlywood;
 }
+/*SECTION 2*/
 .section2 {
   height: 20vh;
   background: white;
 }
+/*SECTION 3*/
 .section3 {
   height: 50vh;
   background: black;
 }
+/*SECTION 4*/
 .section4 {
   height: 40vh;
   background: white;
 }
+/*FOOTER*/
 .footer {
   height: 20vh;
   background: black;
