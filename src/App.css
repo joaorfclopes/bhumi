@@ -1,3 +1,10 @@
+/*FONTS*/
+@font-face {
+  font-family: "Segoe UI Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/segoe-ui/Segoe UI.woff") format("woff");
+}
 /*GENERAL*/
 html {
   scrollbar-width: none;
@@ -13,8 +20,10 @@ body {
   background: black;
 }
 .title {
-  font-family: "Abril Fatface Regular";
   letter-spacing: -0.07em;
+}
+.title > h3 {
+  margin-top: 0;
 }
 .text {
   margin-left: 10vw;
@@ -76,8 +85,23 @@ body {
 }
 /*SECTION 2*/
 .section2 {
-  height: 20vh;
+  height: 35vh;
   background: white;
+}
+.titleSection2 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-top: 2vh;
+}
+.textSection2 {
+  font-family: "Segoe UI Regular";
+  letter-spacing: -0.05em;
+}
+.section2Mobile {
+  padding-bottom: 2vh;
+}
+.section2Desktop > .title {
+  padding-top: 10vh;
 }
 /*SECTION 3*/
 .section3 {

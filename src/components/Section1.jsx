@@ -9,7 +9,7 @@ export default function Section1() {
     query: "(max-device-width: 760px)"
   });
   return (
-    <div className="container">
+    <div className="container1">
       {isMobile && (
         <>
           <div className="section1 section1Mobile">
