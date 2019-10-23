@@ -94,7 +94,7 @@ body {
   letter-spacing: -0.05em;
 }
 .section2Mobile {
-  padding-bottom: 2vh;
+  padding-bottom: 1vh;
 }
 /*SECTION 3*/
 .section3 {
@@ -105,7 +105,7 @@ body {
 .titleSection3 {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 3vh;
+  padding-top: 3vh;
 }
 .textSection3 {
   font-family: "Segoe UI Regular";
@@ -113,8 +113,33 @@ body {
 }
 /*SECTION 4*/
 .section4 {
-  height: 40vh;
   background: white;
+  padding-bottom: 2vh;
+}
+.shoes {
+  text-align: center;
+  padding-top: 1vh;
+}
+.shoe {
+  width: 30%;
+}
+.divider {
+  margin-left: 12vw;
+  margin-right: 12vw;
+  background: black;
+  height: 2px;
+}
+.textSection4 {
+  margin-top: 3vh;
+  font-family: "Segoe UI Regular";
+  letter-spacing: -0.05em;
+  font-weight: bold;
+}
+.secondaryText {
+  font-family: "Segoe UI Regular";
+  letter-spacing: -0.05em;
+  font-weight: lighter;
+  font-size: 3vw;
 }
 /*FOOTER*/
 .footer {
