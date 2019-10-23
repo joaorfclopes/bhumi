@@ -65,11 +65,8 @@ body {
 }
 .section1Mobile {
   background: url("./assets/images/mobile.jpg") no-repeat;
-  background-size: 100% 100%;
-}
-.section1Desktop {
-  background: url("./assets/images/desktop.jpg") no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position-x: center;
 }
 .titleSection1 {
   color: #957a69;
@@ -99,13 +96,20 @@ body {
 .section2Mobile {
   padding-bottom: 2vh;
 }
-.section2Desktop > .title {
-  padding-top: 10vh;
-}
 /*SECTION 3*/
 .section3 {
-  height: 50vh;
   background: black;
+  color: #fdfdfd;
+  padding-bottom: 1vh;
+}
+.titleSection3 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vh;
+}
+.textSection3 {
+  font-family: "Segoe UI Regular";
+  letter-spacing: -0.05em;
 }
 /*SECTION 4*/
 .section4 {
