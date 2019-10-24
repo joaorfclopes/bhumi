@@ -39,7 +39,7 @@ body {
   top: 0;
   z-index: 999;
 }
-.logo {
+.logo-header {
   width: 25vh;
   margin-top: 3vh;
 }
@@ -143,6 +143,11 @@ body {
 }
 /*FOOTER*/
 .footer {
-  height: 20vh;
+  height: 15vh;
   background: black;
+  text-align: center;
+}
+.logo-footer {
+  width: 30vh;
+  margin-top: 4vh;
 }
