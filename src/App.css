@@ -87,6 +87,7 @@ body {
 /*SECTION 2*/
 .section2 {
   background: white;
+  padding-bottom: 3vh;
 }
 .titleSection2 {
   margin-left: 10vw;
@@ -97,19 +98,16 @@ body {
   font-family: "Segoe UI Regular";
   letter-spacing: -0.05em;
 }
-.section2Mobile {
-  padding-bottom: 1vh;
-}
 /*SECTION 3*/
 .section3 {
   background: black;
   color: #fdfdfd;
-  padding-bottom: 1vh;
+  padding-bottom: 3vh;
 }
 .titleSection3 {
   margin-left: 10vw;
   margin-right: 10vw;
-  padding-top: 3vh;
+  padding-top: 2vh;
 }
 .textSection3 {
   font-family: "Segoe UI Regular";

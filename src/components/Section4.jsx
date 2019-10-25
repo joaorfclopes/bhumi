@@ -38,7 +38,25 @@ export default function Section4() {
       )}
       {isDesktop && (
         <>
-          <div className="section4 section3Desktop"></div>
+          <div className="section4 section4Desktop">
+            <div className="shoes">
+              <img className="shoe" src={shoe1} alt="shoe1" />
+              <img className="shoe" src={shoe2} alt="shoe2" />
+              <img className="shoe" src={shoe3} alt="shoe3" />
+            </div>
+            <div className="divider"></div>
+            <div className="textSection4 textDesktop">
+              <p className="text">
+                “The day when the upper echelon of luxury fashion proudly shows
+                off their ethical manufacturing methods, eco-fashion will become
+                irrisistible to consumers”
+              </p>
+              <p className="text secondaryText">
+                in “Luxury brands are silently going green. Is eco-fashion a
+                golden secret?” by Bunny Yan, The Squirrelz
+              </p>
+            </div>
+          </div>
         </>
       )}
     </div>
