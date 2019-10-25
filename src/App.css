@@ -22,12 +22,25 @@ body {
 .title {
   letter-spacing: -0.07em;
 }
-.title > h3 {
-  margin-top: 0;
-}
 .text {
   margin-left: 10vw;
   margin-right: 10vw;
+}
+.titleMobile {
+  top: 50vh;
+  font-size: 4vw;
+}
+.textMobile {
+  top: 50vh;
+  font-size: 4vw;
+}
+.titleDesktop {
+  top: 60vh;
+  font-size: 1.5vw;
+}
+.textDesktop {
+  top: 62vh;
+  font-size: 1.5vw;
 }
 /*HEADER*/
 .header {
@@ -43,20 +56,6 @@ body {
   width: 25vh;
   margin-top: 3vh;
 }
-.titleMobile {
-  top: 50vh;
-  font-size: 4vw;
-}
-.textMobile {
-  top: 50vh;
-  font-size: 4vw;
-}
-.titleDesktop {
-  top: 50vh;
-}
-.textDesktop {
-  top: 55vh;
-}
 /*SECTION 1*/
 .section1 {
   margin-top: 15vh;
@@ -65,6 +64,11 @@ body {
 }
 .section1Mobile {
   background: url("./assets/images/mobile.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.section1Desktop {
+  background: #957a69;
   background-size: cover;
   background-position-x: center;
 }
