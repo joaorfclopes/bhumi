@@ -17,18 +17,18 @@ export default function Section4() {
         <>
           <div className="section4 section4Mobile">
             <div className="shoes">
-              <img className="shoe" src={shoe1} alt="shoe1" />
-              <img className="shoe" src={shoe2} alt="shoe2" />
-              <img className="shoe" src={shoe3} alt="shoe3" />
+              <img className="shoeMobile" src={shoe1} alt="shoe1" />
+              <img className="shoeMobile" src={shoe2} alt="shoe2" />
+              <img className="shoeMobile" src={shoe3} alt="shoe3" />
             </div>
-            <div className="divider"></div>
+            <div className="divider dividerMobile"></div>
             <div className="textSection4 textMobile">
               <p className="text">
                 “The day when the upper echelon of luxury fashion proudly shows
                 off their ethical manufacturing methods, eco-fashion will become
                 irrisistible to consumers”
               </p>
-              <p className="text secondaryText">
+              <p className="text secondaryText secondaryTextMobile">
                 in “Luxury brands are silently going green. Is eco-fashion a
                 golden secret?” by Bunny Yan, The Squirrelz
               </p>
@@ -38,13 +38,13 @@ export default function Section4() {
       )}
       {isDesktop && (
         <>
-          <div className="section4 section4Desktop">
+          <div className="section4 section4Desktop secondaryTextDesktop">
             <div className="shoes">
-              <img className="shoe" src={shoe1} alt="shoe1" />
-              <img className="shoe" src={shoe2} alt="shoe2" />
-              <img className="shoe" src={shoe3} alt="shoe3" />
+              <img className="shoeDesktop" src={shoe1} alt="shoe1" />
+              <img className="shoeDesktop" src={shoe2} alt="shoe2" />
+              <img className="shoeDesktop" src={shoe3} alt="shoe3" />
             </div>
-            <div className="divider"></div>
+            <div className="divider dividerDesktop"></div>
             <div className="textSection4 textDesktop">
               <p className="text">
                 “The day when the upper echelon of luxury fashion proudly shows

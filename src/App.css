@@ -122,14 +122,19 @@ body {
   text-align: center;
   padding-top: 1vh;
 }
-.shoe {
+.shoeMobile {
   width: 30%;
 }
+.shoeDesktop {
+  width: 15%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
 .divider {
-  margin-left: 12vw;
-  margin-right: 12vw;
   background: black;
   height: 2px;
+  margin-left: 12vw;
+  margin-right: 12vw;
 }
 .textSection4 {
   margin-top: 3vh;
@@ -141,6 +146,8 @@ body {
   font-family: "Segoe UI Regular";
   letter-spacing: -0.05em;
   font-weight: lighter;
+}
+.secondaryTextMobile {
   font-size: 3vw;
 }
 /*FOOTER*/
