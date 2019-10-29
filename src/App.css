@@ -68,7 +68,7 @@ body {
   background-position-x: center;
 }
 .section1Desktop {
-  background: #957a69;
+  background: url("./assets/images/desktop.jpg");
   background-size: cover;
   background-position-x: center;
 }
@@ -81,7 +81,7 @@ body {
   padding: 10px;
 }
 .textSection1 {
-  color: #c2b5ac;
+  color: black;
   position: relative;
 }
 /*SECTION 2*/
