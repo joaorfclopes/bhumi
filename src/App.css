@@ -81,8 +81,13 @@ body {
   padding: 10px;
 }
 .textSection1 {
-  color: black;
   position: relative;
+}
+.textSection1Mobile {
+  color: #c3b0ac;
+}
+.textSection1Desktop {
+  color: black;
 }
 /*SECTION 2*/
 .section2 {

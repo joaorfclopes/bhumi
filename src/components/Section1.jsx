@@ -16,7 +16,7 @@ export default function Section1() {
             <div className="title titleSection1 titleMobile">
               <h3>[ The ultimate sophistication in high heels ]</h3>
             </div>
-            <div className="textSection1 textMobile">
+            <div className="textSection1 textSection1Mobile textMobile">
               <p className="text">
                 A Bhumi concilia a tecnologia de ponta e a herança do know-how
                 do fabrico de calçado em Portugal para um conforto e performance
@@ -33,7 +33,7 @@ export default function Section1() {
             <div className="title titleSection1 titleDesktop">
               <h3>[ The ultimate sophistication in high heels ]</h3>
             </div>
-            <div className="textSection1 textDesktop">
+            <div className="textSection1 textSection1Desktop textDesktop">
               <p className="text">
                 A Bhumi concilia a tecnologia de ponta e a herança do know-how
                 do fabrico de calçado em Portugal para um conforto e performance
