@@ -11,7 +11,7 @@ export default function Header() {
   });
 
   return (
-    <div>
+    <div className="headerContainer" id="header">
       {isMobile && (
         <>
           <div className="header headerMobile">

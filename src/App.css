@@ -19,6 +19,41 @@ body {
   margin: 0;
   background: black;
 }
+.loader {
+  background: whitesmoke;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+}
+.loader--hide {
+  opacity: 0;
+  z-index: -1;
+}
+.loaderIcon {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  animation-name: flash;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.loaderIcon > img {
+  width: 15vh;
+}
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
 .title {
   letter-spacing: -0.07em;
 }
@@ -43,9 +78,8 @@ body {
   font-size: 1.5vw;
 }
 /*HEADER*/
-.header {
+.headerContainer {
   background: black;
-  position: fixed;
   width: 100%;
   text-align: center;
   top: 0;
