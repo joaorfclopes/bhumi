@@ -27,24 +27,23 @@ body {
   margin-right: 10vw;
 }
 .titleMobile {
-  top: 50vh;
+  top: 105vw;
   font-size: 4vw;
 }
 .textMobile {
-  top: 50vh;
+  top: 115vw;
   font-size: 4vw;
 }
 .titleDesktop {
-  top: 60vh;
+  top: 32vw;
   font-size: 1.5vw;
 }
 .textDesktop {
-  top: 62vh;
+  top: 32.5vw;
   font-size: 1.5vw;
 }
 /*HEADER*/
 .header {
-  height: 15vh;
   background: black;
   position: fixed;
   width: 100%;
@@ -52,22 +51,34 @@ body {
   top: 0;
   z-index: 999;
 }
-.logo-header {
-  width: 25vh;
-  margin-top: 3vh;
+.headerMobile {
+  height: 30vw;
+}
+.logo-header-mobile {
+  width: 50vw;
+  margin-top: 5vw;
+}
+.headerDesktop {
+  height: 8vw;
+}
+.logo-header-desktop {
+  width: 13vw;
+  margin-top: 1.5vw;
 }
 /*SECTION 1*/
 .section1 {
-  margin-top: 15vh;
-  height: 85vh;
   text-align: center;
 }
 .section1Mobile {
+  margin-top: 30vw;
+  height: 180vw;
   background: url("./assets/images/mobile.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
 }
 .section1Desktop {
+  margin-top: 8vw;
+  height: 45vw;
   background: url("./assets/images/desktop.jpg");
   background-size: cover;
   background-position-x: center;
@@ -157,11 +168,20 @@ body {
 }
 /*FOOTER*/
 .footer {
-  height: 15vh;
   background: black;
   text-align: center;
 }
-.logo-footer {
-  width: 30vh;
-  margin-top: 4vh;
+.footerMobile {
+  height: 30vw;
+}
+.logo-footer-mobile {
+  width: 60vw;
+  margin-top: 8vw;
+}
+.footerDesktop {
+  height: 7vw;
+}
+.logo-footer-desktop {
+  width: 15vw;
+  margin-top: 2vw;
 }
