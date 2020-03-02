@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/svg/logo-header.svg";
+import logo from "../assets/images/logo-header.png";
 import { useMediaQuery } from "react-responsive";
 
 export default function Header() {
